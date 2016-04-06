@@ -1,0 +1,28 @@
+#container1{
+  width: 307.5px;
+  padding-bottom: 333px;
+  background-color: grey;
+}
+
+body{
+  margin: 0px;
+  padding: 0px;
+}
+
+header{
+  padding-left: 8px;
+}
+
+nav{
+  padding-left: 8px;
+}
+
+#columnsummary{
+  padding-left: 8px;
+}
+
+h1{
+  margin: 0px;
+  padding: 0px;
+  padding-top: 8px;
+}
