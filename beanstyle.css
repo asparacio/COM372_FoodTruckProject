@@ -1,7 +1,11 @@
+@import url(https://fonts.googleapis.com/css?family=Monofett);
+
 #container1{
-  width: 307.5px;
-  padding-bottom: 333px;
-  background-color: grey;
+  width: 23.5%;
+  padding-bottom: 100%;
+  background-color: #9C15E7;
+  float: left;
+  position: fixed;
 }
 
 body{
@@ -11,18 +15,78 @@ body{
 
 header{
   padding-left: 8px;
+  padding-bottom: 15px;
+  font-size: 1.5em;
 }
 
 nav{
   padding-left: 8px;
+  padding-bottom: 15px;
 }
 
 #columnsummary{
   padding-left: 8px;
+  padding-bottom: 30px;
+}
+
+#socialmedia{
+  padding-top: 30px;
+}
+
+#container3{
+  width: 50%;
+  margin: 0px;
+  padding-left: 26.5%;
+  padding-top: 60%;
+  padding-bottom: 11.5%;
+  background-color: #FFBC36;
+  float: left;
+  top:0;
+}
+
+#beanlogo{
+float: left;
+position:absolute;
+align-self: center;
+right:25%;
+top:0px;
+width:30%;
+height:auto;
 }
 
 h1{
   margin: 0px;
   padding: 0px;
   padding-top: 8px;
+  font-family: "Monofett", monospace;
+}
+
+
+
+#container4{
+  width: 23.5%;
+  padding-bottom: 100%;
+  background-color: #9C15E7;
+  float: left;
+  position: sticky;
+}
+
+/*Landing page CSS*/
+
+#topboard{
+  width: 100%;
+  padding-bottom: 14.3%;
+  background-color: #9C15E7;
+}
+
+#middleboard{
+  width: 100%;
+  padding-bottom: 27%;
+  background-color: #FFBC36;
+}
+
+#bottomboard{
+  width: 100%;
+  padding-bottom: 14.3%;
+  background-color: #9C15E7;
 }
