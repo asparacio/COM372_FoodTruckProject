@@ -1,11 +1,21 @@
 @import url(https://fonts.googleapis.com/css?family=Monofett);
+@import url(https://fonts.googleapis.com/css?family=Electrolize);
+@import url(https://fonts.googleapis.com/css?family=Share+Tech);
+@import url(https://fonts.googleapis.com/css?family=Arimo:400,400italic,700,700italic);
+@import url(https://fonts.googleapis.com/css?family=Dosis:400,500,600);
+@import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,400italic,600,600italic);
+@import url(https://fonts.googleapis.com/css?family=Roboto+Condensed:400,400italic,700,700italic,300italic,300);
 
 #container1{
-  width: 23.5%;
-  padding-bottom: 100%;
+  width: 20%;
+  height: auto;
+  padding-top: 12%;
+  padding-bottom: 80%;
   background-color: #9C15E7;
   float: left;
   position: fixed;
+  border-right: 10px solid #00CE00;
+  overflow-x: auto;
 }
 
 body{
@@ -22,22 +32,92 @@ header{
 nav{
   padding-left: 8px;
   padding-bottom: 15px;
+  border-color: #8D05D8;
+}
+
+#navigation{
+  border-radius: 50%;
+  border: 10px solid #681894;
+  background-color: #D292F6;
+  color: #FFBC36;
+  font-weight: 800;
+  width: 50%;
+  margin: 6.5%;
+  padding: 15%;
+  padding-right: 15%;
+  left: 15%;
+  font-family: "Electrolize"; serif;
+  overflow-x: auto;
+}
+
+a{
+  text-decoration: none;
+  color: #FFBC36;
 }
 
 #columnsummary{
   padding-left: 8px;
-  padding-bottom: 30px;
+  padding-top: 78%;
+  font-family: "Share Tech", serif;
+  font-size: 1.25em;
+  color: #D292F6;
+  width: 65%;
+  text-align: right;
+  padding-left: 25%;
+}
+
+#greencolor{
+  color: #00CE00;
 }
 
 #socialmedia{
-  padding-top: 30px;
+  padding-top: 15%;
+  padding-right: 0%;
+  padding-left: 20%;
+  position: relative;
+  left: 0%;
+  text-align: right;
 }
 
+#mediaicons{
+  align-self: center;
+}
+
+h1{
+  font-family: "Electrolize"; serif;
+  font-size: 3.0em;
+  padding-bottom: 2%;
+  color: #681894;
+}
+
+h3{
+  font-family: "Electrolize"; serif;
+  font-size: 3.0em;
+  padding-bottom: -30%;
+  color: #681894;
+}
+
+h4{
+  font-family: "Share Tech", serif;
+  font-size: 1.75em;
+  font-weight: 900;
+  color: #B07500;
+  padding-top: 4%;
+  padding-bottom:0%;
+}
+
+li{
+  list-style-image: url(images/099_Bean-512.png);
+  padding-left: 2.5%;
+}
+
+
 #container3{
-  width: 50%;
-  margin: 0px;
-  padding-left: 26.5%;
-  padding-top: 60%;
+  width: 60%;
+  margin: 0;
+  height: auto;
+  padding-left: 24.5%;
+  padding-top: 40%;
   padding-bottom: 11.5%;
   background-color: #FFBC36;
   float: left;
@@ -45,48 +125,215 @@ nav{
 }
 
 #beanlogo{
-float: left;
-position:absolute;
-align-self: center;
-right:25%;
-top:0px;
-width:30%;
-height:auto;
+  position: absolute;
+  width: 50%;
+  height: 0;
+  padding-top: 14.5%;
+  left: 25%;
 }
 
-h1{
-  margin: 0px;
-  padding: 0px;
-  padding-top: 8px;
-  font-family: "Monofett", monospace;
+#logoimg{
+  float: left;
+  position:absolute;
+  align-self: center;
+  left: 0;
+  top:55.5%;
+  width:100%;
+  height:auto;
 }
 
+#beanlogo2{
+  position: absolute;
+  width: 50%;
+  height: 0;
+  padding-top: 0;
+  left: 25%;
+}
 
+#logoimg2{
+  float: left;
+  position:absolute;
+  align-self: center;
+  left: 0;
+  top:50%;
+  width:100%;
+  height:auto;
+}
+
+#mediaicons{
+  float: left;
+  position: absolute;
+  left: 10%;
+}
+
+#menutitle{
+  text-decoration: underline;
+  text-decoration-color: #00CE00;
+  font-weight: bold;
+  font-family: "Roboto Condensed", monospace;
+  padding: 0;
+}
+/* <div id="beanlogo" style="position:absolute; width:50%; height:0; padding-top:14.5%;">
+  <img style="position:absolute; top:50%; left:0; width:100%;" src="beanmachinelogo.jpg" alt="Bean Machine'">
+</div> */
 
 #container4{
-  width: 23.5%;
-  padding-bottom: 100%;
+  width: 20%;
+  height: auto;
+  padding-bottom: 108.3%;
   background-color: #9C15E7;
-  float: left;
-  position: sticky;
+  float: right;
+  position: absolute;
+  right: 0%;
+  border-left: 10px solid #00CE00;
 }
 
 /*Landing page CSS*/
 
 #topboard{
   width: 100%;
-  padding-bottom: 14.3%;
+  padding-bottom: 7.2%;
   background-color: #9C15E7;
+  border-bottom: 10px solid #00CE00;
 }
 
 #middleboard{
   width: 100%;
-  padding-bottom: 27%;
+  padding-top: 0;
+  padding-bottom: 34%;
   background-color: #FFBC36;
+  border-bottom: 10px solid #00CE00;
 }
 
 #bottomboard{
   width: 100%;
-  padding-bottom: 14.3%;
+  padding-bottom: 11.95%;
   background-color: #9C15E7;
+}
+
+#start{
+  margin: auto;
+  float: left;
+  text-align: center;
+  padding-left: 36.5%;
+  padding-top: 4.5%;
+}
+
+#startlink{
+  margin: auto;
+  font-family: "Electrolize", monospace;
+  font-size: 1.75em;
+  color: #00CE00;
+  text-decoration: none;
+}
+
+/* our mission page */
+
+#container1a{
+  width: 20.0%;
+  height: auto;
+  padding-top: 12%;
+  padding-bottom: 20%;
+  background-color: #9C15E7;
+  float: left;
+  position: fixed;
+  border-right: 10px solid #00CE00;
+}
+
+#container3a{
+  width: 60%;
+  margin: 0px;
+  padding-left: 24.5%;
+  padding-top: 40%;
+  padding-bottom: 5.5%;
+  background-color: #FFBC36;
+  float: left;
+  top:0;
+}
+
+#mission{
+  width: 80%;
+  text-align: center;
+  padding-top: 2.5%;
+  padding-bottom: 2.5%;
+  font-family: "Source Sans Pro", sans-serif;
+}
+
+#container4a{
+  width: 20.0%;
+  height: auto;
+  padding-bottom: 56.4%;
+  background-color: #9C15E7;
+  float: left;
+  position: absolute;
+  left: 79.2%;
+  border-left: 10px solid #00CE00;
+}
+
+/* menu page */
+
+#menucontent{
+  font-family: "Source Sans Pro", serif;
+  font-size: 1.15em;
+  margin-right: 15.5%;
+  padding: -20%;
+}
+
+/* find a bean machine*/
+
+#container1b{
+  width: 20.0%;
+  height: auto;
+  padding-top: 12%;
+  padding-bottom: 20%;
+  background-color: #9C15E7;
+  float: left;
+  position: fixed;
+  border-right: 10px solid #00CE00;
+}
+
+#container3b{
+  width: 60.0%;
+  margin: 0px;
+  padding-left: 24.5%;
+  padding-top: 40%;
+  padding-bottom: 5.5%;
+  background-color: #FFBC36;
+  float: left;
+  top:0;
+}
+
+#googlemap{
+  border: 10px solid #681894;
+}
+
+#findabeanmachinecontent{
+  width: 60%;
+  font-family: "Source Sans Pro", sans-serif;
+}
+
+#eventtitle{
+  font-family: "Share Tech", serif;
+  font-size: 1.75em;
+  font-weight: 900;
+  color: #B07500;
+  padding: 3.5%;
+}
+
+#eventdate{
+  font-size: 1.5em;
+  font-weight: 600;
+  padding-bottom: 2.5%;
+  padding-top: 3.5%;
+}
+
+#container4b{
+  width: 20.00%;
+  height: auto;
+  left:79.2%;
+  padding-bottom: 41.7%;
+  background-color: #9C15E7;
+  float: left;
+  position: absolute;
+  border-left: 10px solid #00CE00;
 }
