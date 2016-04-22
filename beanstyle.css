@@ -108,7 +108,7 @@ h4{
 
 li{
   list-style-image: url(images/099_Bean-512.png);
-  padding-left: 2.5%;
+  padding-left: 2.0%;
 }
 
 
@@ -172,8 +172,64 @@ li{
   font-weight: bold;
   font-size: 1.20em;
   font-family: "Roboto Condensed", monospace;
-  padding: 0;
+  padding-top: 1.5%;
+  padding-right: 5%;
 }
+
+#menupic{
+  position: relative;
+  float: right;
+  align-self: center;
+  padding-bottom: 10%;
+  padding-left: 20%;
+  padding: 0;
+  top: 10%;
+  left: 5%;
+  width: 50%;
+  height: auto;
+  border: 10px solid #00CE00;
+}
+
+#menupic2{
+  position: relative;
+  float: right;
+  align-self: center;
+  padding-top: 0%;
+  padding-bottom: 5%;
+  padding: 0;
+  top: -2.5%;
+  left:5%;
+  width: 51.0%;
+  height: auto;
+    border: 10px solid #00CE00;
+}
+
+
+#menupic3{
+  position: relative;
+  float: right;
+  align-self: center;
+  top: 0%;
+  padding: 10%;
+  padding-right: 0%;
+  left: 3.0%;
+  width: 51.5%;
+  height: auto;
+}
+
+#menupic4{
+  position: relative;
+  float: right;
+  align-self: center;
+  padding-top: 10%;
+  padding-bottom: 5%;
+  padding;
+  left:-1.5%;
+  width: 73%;
+  height: auto;
+  border: 10px solid #00CE00;
+}
+
 /* <div id="beanlogo" style="position:absolute; width:50%; height:0; padding-top:14.5%;">
   <img style="position:absolute; top:50%; left:0; width:100%;" src="beanmachinelogo.jpg" alt="Bean Machine'">
 </div> */
@@ -181,7 +237,7 @@ li{
 #container4{
   width: 20%;
   height: auto;
-  padding-bottom: 135.6%;
+  padding-bottom: 180.9%;
   background-color: #9C15E7;
   float: right;
   position: absolute;
